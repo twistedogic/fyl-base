@@ -7,5 +7,18 @@
     "test": "gulp"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.2.1",
+    "browserify": "^10.2.4",
+    "firebase": "^2.2.7",
+    "lodash": "^3.9.3",
+    "parse": "^1.4.2",
+    "reactfire": "^0.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.2",
+    "gulp-util": "^3.0.6"
+  }
 }

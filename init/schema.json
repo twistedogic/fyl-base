@@ -1,0 +1,42 @@
+tableId:{
+	shop:shopId,
+	occupied:false,
+	menu:menuId,
+	order:{
+		item:{
+			dishName:{
+				price:dishPrice,
+				num:dishNum
+			}
+		},
+		startTime:startTime,
+		endTime:endTime
+	}
+}
+
+shopId:{
+	name:shopName,
+	address:shopAddress,
+	phone:shopPhone,
+	info:shopInfo
+}
+
+menuId:{
+	dishName:{
+		price:dishPrice,
+		info:dishInfo
+	}
+}
+
+histroy:{
+	orderId:{
+		item:{
+			dishName:{
+				price:dishPrice,
+				num:dishNum
+			}
+		},
+		startTime:startTime,
+		endTime:endTime
+	}
+}
